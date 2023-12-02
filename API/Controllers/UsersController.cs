@@ -26,5 +26,4 @@ public class UsersController:ControllerBase
         var user=await _context.Users.FirstOrDefaultAsync (u=>u.Id==id);
         return user;
     }
-
 }
